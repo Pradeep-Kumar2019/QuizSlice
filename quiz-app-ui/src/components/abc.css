@@ -1,0 +1,52 @@
+.container-mdb {
+    padding-left: 200px;
+    line-height: 3.5;
+    padding-top: 100px;
+}
+
+.container-mdb-login {
+    padding-left: 500px;
+    line-height: 1.5;
+    padding-top: 25px;
+}
+
+.img-mdb {
+    height: 125px;
+    width: 165px;
+}
+
+.chip-mdb {
+    font-weight: 700;
+}
+
+.quiz-timer {
+    padding-left: 700px;
+    color: red;
+    font-weight: 900;
+}
+
+.black-text {
+    color: #080808 !important;
+}
+
+.label-mdb {
+    padding-left: 45px;
+    width: 200px;
+    display: inline-block;
+    font-size: 144%;
+  }
+
+.row-mdb {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.label-mdb {
+    top: -13px;
+}
+
+.radio-mdb {
+    padding-left: 500px;
+}

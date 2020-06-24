@@ -1,0 +1,334 @@
+{
+  "StackId": "arn:aws:cloudformation:us-west-2:408096535527:stack/airnz-partner-connectivity-service-ewetest-vpce/351e9030-9a2e-11ea-b5e8-0678f540705a",
+  "StackName": "airnz-partner-connectivity-service-ewetest-vpce",
+  "Description": "Deploy Amazon ECS Service with CloudFormation.",
+  "Parameters": [
+    {
+      "ParameterKey": "TargetGroupPort",
+      "ParameterValue": "8080"
+    },
+    {
+      "ParameterKey": "SetIdentifier",
+      "ParameterValue": "airnz-partner-connectivity-service-ewetest-vpce"
+    },
+    {
+      "ParameterKey": "SSLEnable",
+      "ParameterValue": "false"
+    },
+    {
+      "ParameterKey": "LoadBalancerType",
+      "ParameterValue": "network"
+    },
+    {
+      "ParameterKey": "Route53Name",
+      "ParameterValue": "airnz-partner-connectivity-service.us-west-2.test.expedia.com."
+    },
+    {
+      "ParameterKey": "TargetGroupProtocol",
+      "ParameterValue": "TCP"
+    },
+    {
+      "ParameterKey": "Version",
+      "ParameterValue": "bc8dbe957fe0fb6161c6b70bd2afb50f6f58c618"
+    },
+    {
+      "ParameterKey": "HealthyThresholdCount",
+      "ParameterValue": "3"
+    },
+    {
+      "ParameterKey": "LongARNsEnabled",
+      "ParameterValue": "true"
+    },
+    {
+      "ParameterKey": "MemoryScaleInThreshold",
+      "ParameterValue": "40.0"
+    },
+    {
+      "ParameterKey": "TaskDefinitionArn",
+      "ParameterValue": "arn:aws:ecs:us-west-2:408096535527:task-definition/airnz-partner-connectivity-service:76"
+    },
+    {
+      "ParameterKey": "MaxCapacity",
+      "ParameterValue": "2"
+    },
+    {
+      "ParameterKey": "ExpediaDeployedEnvironment",
+      "ParameterValue": "test"
+    },
+    {
+      "ParameterKey": "TargetGroupArn",
+      "ParameterValue": "arn:aws:elasticloadbalancing:us-west-2:408096535527:targetgroup/airnz-VPCES-2GFU3NWE9QZP/73b571fba31a9a6c"
+    },
+    {
+      "ParameterKey": "TaskRoleArn",
+      "ParameterValue": "arn:aws:iam::408096535527:role/ecsInstanceRole"
+    },
+    {
+      "ParameterKey": "CPUScaleOutThreshold",
+      "ParameterValue": "75.0"
+    },
+    {
+      "ParameterKey": "HealthCheckIntervalSeconds",
+      "ParameterValue": "10"
+    },
+    {
+      "ParameterKey": "MemoryScaleOutThreshold",
+      "ParameterValue": "90.0"
+    },
+    {
+      "ParameterKey": "Ec2SecurityGroups",
+      "ParameterValue": "sg-48130c2e,sg-10130c76,sg-13100f75"
+    },
+    {
+      "ParameterKey": "BlueGreenDeploymentEnabled",
+      "ParameterValue": "false"
+    },
+    {
+      "ParameterKey": "DesiredCount",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "MinCapacity",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "UnhealthyThresholdCount",
+      "ParameterValue": "3"
+    },
+    {
+      "ParameterKey": "EcsServiceRole",
+      "ParameterValue": "ecsServiceRole"
+    },
+    {
+      "ParameterKey": "EnableMemoryAutoscaling",
+      "ParameterValue": "false"
+    },
+    {
+      "ParameterKey": "TargetGroupStickyTimeout",
+      "ParameterValue": "86400"
+    },
+    {
+      "ParameterKey": "ServiceName",
+      "ParameterValue": "airnz-partner-connectivity-service-ewetest-vpce"
+    },
+    {
+      "ParameterKey": "Region",
+      "ParameterValue": "us-west-2"
+    },
+    {
+      "ParameterKey": "CertificateARN",
+      "ParameterValue": "None"
+    },
+    {
+      "ParameterKey": "SecurityGroups",
+      "ParameterValue": "sg-55120d33"
+    },
+    {
+      "ParameterKey": "Ec2Subnets",
+      "ParameterValue": "subnet-9da062c5"
+    },
+    {
+      "ParameterKey": "ScaleInAdjustment",
+      "ParameterValue": "-1"
+    },
+    {
+      "ParameterKey": "HealthCheckPath",
+      "ParameterValue": "/isActive"
+    },
+    {
+      "ParameterKey": "EcsAutoScalingRole",
+      "ParameterValue": "arn:aws:iam::408096535527:role/ecsAutoscaleRole"
+    },
+    {
+      "ParameterKey": "LoadBalancerPort",
+      "ParameterValue": "8443"
+    },
+    {
+      "ParameterKey": "DNSName",
+      "ParameterValue": "airnz-VPCES-1V6HR7HFKQ9PQ-8ad5bd066733e693.elb.us-west-2.amazonaws.com"
+    },
+    {
+      "ParameterKey": "TargetGroupStickinessType",
+      "ParameterValue": "lb_cookie"
+    },
+    {
+      "ParameterKey": "HealthCheckTimeoutSeconds",
+      "ParameterValue": "5"
+    },
+    {
+      "ParameterKey": "LaunchType",
+      "ParameterValue": "EC2"
+    },
+    {
+      "ParameterKey": "AppName",
+      "ParameterValue": "airnz-partner-connectivity-service"
+    },
+    {
+      "ParameterKey": "EnableCPUAutoscaling",
+      "ParameterValue": "true"
+    },
+    {
+      "ParameterKey": "DeregistrationDelay",
+      "ParameterValue": "60"
+    },
+    {
+      "ParameterKey": "LoadBalancerProtocol",
+      "ParameterValue": "TCP"
+    },
+    {
+      "ParameterKey": "VpceDeploymentEnabled",
+      "ParameterValue": "true"
+    },
+    {
+      "ParameterKey": "ContainerPort",
+      "ParameterValue": "8443"
+    },
+    {
+      "ParameterKey": "EcsCluster",
+      "ParameterValue": "test_0001_ewetest-10-38-0-0-16"
+    },
+    {
+      "ParameterKey": "HealthCheckProtocol",
+      "ParameterValue": "TCP"
+    },
+    {
+      "ParameterKey": "EcsServiceType",
+      "ParameterValue": "BgService"
+    },
+    {
+      "ParameterKey": "HealthCheckGracePeriodSeconds",
+      "ParameterValue": "120"
+    },
+    {
+      "ParameterKey": "HostedZoneName",
+      "ParameterValue": "test.expedia.com."
+    },
+    {
+      "ParameterKey": "TargetGroupStickinessEnabled",
+      "ParameterValue": "false"
+    },
+    {
+      "ParameterKey": "ScaleOutAdjustment",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "ELBScheme",
+      "ParameterValue": "internal"
+    },
+    {
+      "ParameterKey": "ELBTimeoutSeconds",
+      "ParameterValue": "50"
+    },
+    {
+      "ParameterKey": "Subnets",
+      "ParameterValue": "subnet-93a062cb"
+    },
+    {
+      "ParameterKey": "SslPolicy",
+      "ParameterValue": "ELBSecurityPolicy-TLS-1-2-2017-01"
+    },
+    {
+      "ParameterKey": "ResourceId",
+      "ParameterValue": "service/test_0001_ewetest-10-38-0-0-16/airnz-partner-connectivity-service-ewetest-vpce"
+    },
+    {
+      "ParameterKey": "CPUScaleInThreshold",
+      "ParameterValue": "40.0"
+    }
+  ],
+  "CreationTime": "",
+  "RollbackConfiguration": {},
+  "StackStatus": "CREATE_COMPLETE",
+  "DisableRollback": "False",
+  "NotificationARNs": [],
+  "Outputs": [
+    {
+      "OutputKey": "Route53Name",
+      "OutputValue": "airnz-partner-connectivity-service.us-west-2.test.expedia.com.",
+      "Description": "Route53Name"
+    },
+    {
+      "OutputKey": "vpceTargetGroupArn",
+      "OutputValue": "arn:aws:elasticloadbalancing:us-west-2:408096535527:targetgroup/airnz-VPCES-2GFU3NWE9QZP/73b571fba31a9a6c",
+      "Description": "TargetGroupArn"
+    },
+    {
+      "OutputKey": "VpceService",
+      "OutputValue": "arn:aws:ecs:us-west-2:408096535527:service/test_0001_ewetest-10-38-0-0-16/airnz-partner-connectivity-service-ewetest-vpce",
+      "Description": "VpceService"
+    },
+    {
+      "OutputKey": "vpceDNSName",
+      "OutputValue": "airnz-VPCES-1V6HR7HFKQ9PQ-8ad5bd066733e693.elb.us-west-2.amazonaws.com",
+      "Description": "DNSName"
+    }
+  ],
+  "Tags": [
+    {
+      "Key": "Role",
+      "Value": "airnz-partner-connectivity-service"
+    },
+    {
+      "Key": "Version",
+      "Value": "bc8dbe957fe0fb6161c6b70bd2afb50f6f58c618"
+    },
+    {
+      "Key": "Portfolio",
+      "Value": "EWE Primer"
+    },
+    {
+      "Key": "Environment",
+      "Value": "ewetest"
+    },
+    {
+      "Key": "Team",
+      "Value": "EPS Renegades"
+    },
+    {
+      "Key": "Product Area",
+      "Value": "Shared Customer Features"
+    },
+    {
+      "Key": "Application",
+      "Value": "airnz-partner-connectivity-service"
+    },
+    {
+      "Key": "no-auto-delete",
+      "Value": "bc8dbe957fe0fb6161c6b70bd2afb50f6f58c618"
+    }
+  ],
+  "DriftInformation": {
+    "StackDriftStatus": "NOT_CHECKED"
+  }
+}
+
+
+
+
+{
+  "ec2app":[
+    {
+      "version":1,
+      "appame" : "a"
+    },
+    {
+      "version":1,
+      "appame" : "a"
+    }
+    
+  ]
+}
+
+{
+  "ec2app":[
+    {
+      "version":1,
+      "appame" : "a"
+    },
+    {
+      "version":1,
+      "appame" : "a"
+    },
+    
+  ]
+}

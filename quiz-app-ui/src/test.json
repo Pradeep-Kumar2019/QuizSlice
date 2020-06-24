@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "question": "The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?",
+      "options": [
+        "4 years",
+        "8 years",
+        "10 years",
+        "None of these"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A father said to his son, I was as old as you are at the present at the time of your birth. If the father's age is 38 years now, the son's age five years back was:",
+      "options": [
+        "14 years",
+        "19 years",
+        "33 years",
+        "38 years"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A is two years older than B who is twice as old as C. If the total of the ages of A, B and C be 27, then how old is B?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years?",
+      "options": [
+        "24",
+        "27",
+        "40",
+        "Cannot be determined"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is:",
+      "options": [
+        "14 years",
+        "18 years",
+        "20 years",
+        "22 years"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:",
+      "options": [
+        "12 years",
+        "14 years",
+        "18 years",
+        "20 years"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Sachin is younger than Rahul by 7 years. If their ages are in the respective ratio of 7 : 9, how old is Sachin?",
+      "options": [
+        "16 years",
+        "18 years",
+        "28 years",
+        "24.5 years"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Eid-ul-Fitr festival celebrated on which date in India in the year 2020?",
+      "options": [
+        "21, 22 May",
+        "22, 23 May",
+        "24, 25 May",
+        "23, 24 May"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "World Turtle Day is celebrated on which day every year?",
+      "options": [
+        "May 21",
+        "May 20",
+        "May 19",
+        "May 22"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Government has extended the nationwide lockdown till which date?",
+      "options": [
+        "May 31, 2020",
+        "June 15, 2020",
+        "June 1, 2020",
+        "May 30, 2020"
+      ]
+    }
+]
+
